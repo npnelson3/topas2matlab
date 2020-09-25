@@ -6,7 +6,7 @@ by Nick Nelson <npnelson3@gmail.com>
 
 # Basic Usage
 ```matlab
-file = 'TestData/3D.csv'\
+file = 'TestData/3D.csv'
 topas2matlab(file)
 ```
 
