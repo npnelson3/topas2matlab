@@ -2,7 +2,7 @@
 by Nick Nelson <npnelson3@gmail.com>
 
 # Basic Features
-`topas2matlab(filename,DoseGridType)` converts csv-binned TOPAS outputs to a Matlab array where the DoseGridType is either Cylindrical or Rectilinear. The function will evauluate the dimensions of the dose grid (1D, 2D, or 3D voxels) and places the respective TOPAS values into a 1D, 2D, or 3D array. 'topas2matlab_bin()' converts binary-binned TOPAS outputs to a Matlab array.
+`topas2matlab(filename,DoseGridType)` converts csv-binned TOPAS outputs to a Matlab array where the DoseGridType is either Cylindrical or Rectilinear. The function will evauluate the dimensions of the dose grid (1D, 2D, or 3D voxels) and places the respective TOPAS values into a 1D, 2D, or 3D array. `topas2matlab_bin(filename)` converts binary-binned TOPAS outputs to a Matlab array with the help of `readBinHeader(headerFile)` which simply reads in the amount of bins and their widths in X, Y, and Z.
 
 # Basic Usage
 ```matlab
