@@ -1,0 +1,9 @@
+# TOPAS Version: 3.6.p1
+# Parameter File: BaseFile_Collimated.txt
+# Results for scorer Dij
+# Scored in component: DoseGrid
+# X in 70 bins of 0.1 cm
+# Y in 70 bins of 0.1 cm
+# Z in 85 bins of 0.1 cm
+# DoseToMedium ( Gy ) : Mean   
+# Binary file: Dij_1.bin
