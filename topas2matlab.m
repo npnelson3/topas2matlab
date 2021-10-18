@@ -45,6 +45,7 @@ elseif GridType == 'Cylindrical'
     Dims = GetCylindricalDims(filename);
     DoseMatrix = zeros(1,Dims);
     DoseMatrix(:) = Dij(:,4);
+    UncMatrix(:) = Dij(:,5);
 end
 
 
