@@ -5,4 +5,5 @@ inds = [1:1:numel(binDoseDouble)];
 BinMatrix = zeros(xbins,ybins,zbins);
 BinMatrix(inds) = binDoseDouble(inds);
 data = BinMatrix;
+fclose('all');
 end
